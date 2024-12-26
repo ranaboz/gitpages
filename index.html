@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>İyi Ki Doğdun</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>İyi Ki Doğdun!</h1>
+  </header>
+
+  <section id="message">
+    <p>Canım arkadaşım, doğum günün kutlu olsun!</p>
+    <p>Bugün senin özel günün ve ben de senin hayatındaki bu güzel yılı kutlamaktan dolayı çok mutluyum. Her anını birlikte paylaştık, birlikte güldük, birlikte büyüdük. Senin gibi birini tanımak, hayatıma değer katmak gerçekten çok büyük bir şans.</p>
+    <p>İyi ki doğdun, iyi ki varsın! Yeni yaşında sana sağlık, mutluluk ve başarı dolu bir yıl diliyorum. Dilerim her şey gönlünce olur ve her adımında seni daha da mutlu eden şeyler bulursun. Hep birlikte nice güzel anılar biriktireceğimiz bir yıl olsun!</p>
+    <p>İyi ki benim arkadaşım oldun, seni çok seviyorum!</p>
+  </section>
+
+  <footer>
+    <p>2024 &copy; Tüm Hakları Saklıdır</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/confetti-js@0.0.13/dist/index.bundle.min.js"></script>
+  <script>
+    const confetti = new ConfettiGenerator({
+      target: 'confetti',
+      max: 100,
+      size: 2,
+      animate: true,
+      props: ['circle', 'square'],
+      colors: [[255, 105, 180], [138, 43, 226], [255, 182, 193], [221, 160, 221]],
+    });
+    confetti.render();
+  </script>
+
+  <div id="confetti"></div>
+</body>
+</html>

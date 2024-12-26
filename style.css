@@ -1,0 +1,55 @@
+/* Genel Stil Ayarları */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #d8a7c4, #f7c8e0); /* Lila ve Pembe tonları */
+    color: #333;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Header */
+  header {
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 20px;
+    margin: 50px 0;
+    border-radius: 10px;
+  }
+  
+  header h1 {
+    font-size: 3em;
+    color: #8a2be2; /* Lila rengi */
+  }
+  
+  /* Mesaj Bölümü */
+  #message {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    margin: 0 10%;
+    border-radius: 10px;
+    font-size: 1.2em;
+  }
+  
+  #message p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  
+  #message p:last-child {
+    margin-bottom: 0;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 10px;
+    margin-top: 50px;
+    font-size: 0.9em;
+    color: #8a2be2;
+  }
+  
